@@ -1,0 +1,137 @@
+/*heading*/
+html,body{
+    margin:0;
+    padding-bottom: 20px;
+}
+#heading{
+    text-align: center;
+    font-size: 30px;
+
+}
+#header a:visited{
+    color: rgb(255, 233, 227);
+}
+
+.col img{
+    padding: 10% 20%;
+    position: relative;
+    height: 500px;
+}
+#brand-img
+{
+    padding-top: 40px;
+}
+#autumn
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.brands-bg
+{
+    position: absolute;
+}
+
+/*BANNER-SLOGAN*/
+.zara-banner{
+    width: 100%;
+
+}
+
+.slogan-banner
+{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.slogan
+{
+    font-size: 50px;
+    font-family: 'Allura', cursive;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    height:300px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+
+/*FEATURED */
+.categories
+{
+    margin:70px 0;
+    margin-left: 150px;
+}
+.col-3
+{
+    flex-basis: 30%;
+    min-width:250px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    transition: 0.5s;
+
+}
+.col-3 img{
+    width: 100%;
+
+}
+.col-3:hover{
+    transform: scale(1.15);
+    z-index:3;
+
+
+}
+
+
+/*Navbar*/
+
+
+#page
+{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+}
+.container-fluid
+{
+    padding: 10px;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: rgb(0, 0, 0);  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+.navbar-nav >li{
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.navbar-nav > li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav{
+    size: 500px;
+}
+
+.h1
+{
+    font-family: 'Noto Sans Balinese', sans-serif;
+}
+.heading
+{
+    background: #d5cfd7;
+    padding-top: 5%;
+}
+.container{
+    padding-top: 3%;
+
+}

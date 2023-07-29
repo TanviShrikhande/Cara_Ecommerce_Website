@@ -1,0 +1,40 @@
+#page
+{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+}
+.container-fluid
+{
+    padding: 10px;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: rgb(0, 0, 0);  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+.navbar-nav >li{
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.navbar-nav > li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav{
+    size: 500px;
+}
+
+.h1
+{
+    font-family: 'Noto Sans Balinese', sans-serif;
+}
+.heading
+{
+    background: #d5cfd7;
+    padding-top: 5%;
+}
+.container{
+    padding-top: 3%;
+
+}

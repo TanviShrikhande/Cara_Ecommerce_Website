@@ -1,0 +1,27 @@
+.products_title
+{
+    font-family: 'Roboto Serif', serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #2f2f2f;
+	margin-top: -4px;
+}
+
+.sidebar_title
+{
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+}
+.sidebar_section_content_link
+{
+    color: #2f2f2f;
+    font-size: 15px;
+}
+.sidebar_section_content
+{
+    padding: 10%;
+}
+.side_color
+{
+    color: #2f2f2f;
+}
